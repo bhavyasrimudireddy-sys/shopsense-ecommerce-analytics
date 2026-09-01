@@ -1,0 +1,71 @@
+# ==========================================
+# ShopSense - Git Ignore
+# ==========================================
+
+# Dependencies
+node_modules/
+Client/node_modules/
+Server/node_modules/
+
+# Environment files / secrets
+.env
+.env.*
+Client/.env
+Client/.env.*
+Server/.env
+Server/.env.*
+
+# Keep environment templates
+!.env.example
+!Client/.env.example
+!Server/.env.example
+
+# Next.js
+.next/
+Client/.next/
+out/
+Client/out/
+
+# Build output
+build/
+dist/
+Server/dist/
+
+# Testing
+coverage/
+
+# Package manager files
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript generated files
+*.tsbuildinfo
+
+# Vercel
+.vercel/
+
+# IDE / editor
+.vscode/
+.idea/
+.claude/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Certificates / private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Temporary files
+*.tmp
+*.temp
